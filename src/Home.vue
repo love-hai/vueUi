@@ -1,15 +1,11 @@
 <template>
-  <HelloWorld  style="width:20%;margin-left:40%;"/>
+  <div id="app">
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'HomePage',
 }
 </script>
 
